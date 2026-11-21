@@ -5,6 +5,9 @@
 // it copies POST.json, which names that post, from the repository into
 // /output/POST.json, where the gate reads it. That is the whole job.
 //
+// The post's text and its first picture are the judged entry; nothing this
+// program writes about the post is judged.
+//
 // Run it outside the grader's container like this:
 //   mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
